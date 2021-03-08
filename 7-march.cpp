@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-    //Array
+    //Array --> used to store data in coontiguous memory allocation
+    
     int num[] = {23, 657, 435, 2}; // or num[4]
     cout << num[0] << endl;
     cout << num[1] << endl;
@@ -22,13 +23,13 @@ int main()
     // Output using for, while and do-while loops
     for (int i = 0; i < 3; i++)
     {
-        cout << "The value of marks " << i << " is " << num[i] << endl;
+        cout << "The value of marks using for-loop" << i << " is " << num[i] << endl;
     }
 
     int i = 0;
     while (i < 4)
     {
-        cout << "The valu of num " << i << " is " << num[i] << endl;
+        cout << "The value of num wsing while-loop" << i << " is " << num[i] << endl;
         i++;
     }
 
