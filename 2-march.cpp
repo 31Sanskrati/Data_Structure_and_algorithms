@@ -6,10 +6,10 @@ using namespace std;
 int main(){
     int num1, num2;
     cout<< "Enter the value of num1:\n";
-    cin>>num1;
+    cin>>num1;//for input
 
     cout<< "Enter the value of num2: "<<endl;
-    cin>>num2;
+    cin>>num2;//for input
 
     cout<< "The sum is "<<num1+num2;
     return 0;
