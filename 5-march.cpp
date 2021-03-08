@@ -3,12 +3,13 @@ using namespace std;
 
 int main()
 {
-    //***************for running make each section a comment**************
+    //***************for running the code --> make each section a comment**************
 
-    //selection control structure: if-else ladder
     int age;
     cout << "Invitaion to party. Enter you age:" << endl;
-    cin >> age;
+    cin >> age; 
+
+     //selection control structure: if-else ladder
     if (age <= 16)
     {
         cout << "You are a kid. Go to your bed" << endl;
@@ -44,7 +45,7 @@ int main()
     }
 
     // Ctrl+c for stobing to run
-    // infinite for loop
+    // infinite for loop ---> condition is always true --> dont left this running!!!
     for (int i = 1; 1 < 10; i++)
     {
         cout << i << endl;
@@ -58,7 +59,7 @@ int main()
         i++;
     }
 
-    //Example of infinite while loop
+    //Example of infinite while loop 
     int i = 1;
     while (true)
     {
@@ -66,13 +67,15 @@ int main()
         i++;
     }
 
-    //do-while loop -->at least once this will run
+    //do-while loop -->will run at least once before checking the condition
     int i = 1;
     do
     {
         cout << i << endl;
         i++;
     } while (i <= 20);
+
+
 
     return 0;
 }
