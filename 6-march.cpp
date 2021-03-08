@@ -3,11 +3,12 @@ using namespace std;
 
 int main()
 {
+ //***************for running the code --> make each section a comment**************
 
-//Break continue
+//Break statement
     for (int i = 1; i < 20; i++)
     {
-        if (i == 10)
+        if (i == 10)//will stop at 10
         {
             break;
         }
@@ -15,10 +16,10 @@ int main()
         cout << i << endl;
     }
 
-//COntinue Statement
+//Continue Statement
     for (int i = 1; i < 20; ++i)
     {
-        if (i == 10)
+        if (i == 10)//will miss 10
         {
             continue;
         }
