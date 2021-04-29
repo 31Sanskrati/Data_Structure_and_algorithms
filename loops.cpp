@@ -30,7 +30,7 @@ int main()
         cout << "You are invited" << endl;
         break;
     case 17:
-        cout << "You are invited, next year\n";
+        cout << "You are invited for next year\n";
         break;
     default:
         cout << "Too old for this one" << endl;

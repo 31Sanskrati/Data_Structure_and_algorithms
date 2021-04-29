@@ -35,7 +35,7 @@ int main()
 
     do
     {
-        cout << "The valu of num " << i << " is " << num[i] << endl;
+        cout << "The value of num " << i << " is " << num[i] << endl;
         i++;
     } while (i < 4);
 
