@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//this program contains concepts related to clss and object
+
 class student
 {
     int age;

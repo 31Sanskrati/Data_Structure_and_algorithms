@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//this program contains some basic concepts of class
+
 class geek{
     public:
     //data member

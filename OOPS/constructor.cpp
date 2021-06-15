@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//this contains constructor, destructor and operators
+
 class student
 {
 
