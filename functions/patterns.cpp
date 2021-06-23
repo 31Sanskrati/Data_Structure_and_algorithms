@@ -8,7 +8,13 @@ int main()
     cin >> row;
     cout << "Enter the num of columns\n";
     cin >> col;
-
+for(int i = 0; i<row; i++){
+        for(int j = 0; j<col; j++){
+            cout << "* ";
+        }
+        col--;
+        cout<<"\n";
+    }
     //solid rectangle
     /*for(int i = 0; i<row; i++){
         for(int j = 0; j<col; j++){
@@ -31,13 +37,7 @@ int main()
     }
 
 //inverted half pyramid
-    for(int i = 0; i<row; i++){
-        for(int j = 0; j<col; j++){
-            cout << "* ";
-        }
-        col--;
-        cout<<"\n";
-    }
+    
 
 //full pyramid
     for(int i = 0; i<row; i++){
@@ -48,7 +48,7 @@ int main()
             else{
                 cout << "* ";
             }
-        }*/
+        }
 
 //half pryamid of numbers
     for (int i = 0; i < row; i++)
@@ -65,6 +65,6 @@ int main()
             }
         }
         cout << "\n";
-    }
+    }*/
     return 0;
 }
