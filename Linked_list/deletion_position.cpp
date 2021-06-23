@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//To delete an element at a certain position
+
 class node
 {
 public:

@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//to insert a node in linked list
+
 class node
 {
 public:

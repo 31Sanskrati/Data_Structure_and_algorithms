@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//to delete an element when an element is given to delete
+
 class node
 {
 public:
