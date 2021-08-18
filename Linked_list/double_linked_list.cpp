@@ -40,6 +40,7 @@ void insertAtEnd(node *&head, int val)
 
     node *new_node = new node(val);
     node *temp = head;
+
     while (temp->next != NULL)
     {
         temp = temp->next;
