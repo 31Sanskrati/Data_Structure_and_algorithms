@@ -1,5 +1,6 @@
 ## General Info
-I am learning :thinking: C++ and Data Structure & Algorithm in the same language. And in this repository, I upload my code while I am learning :point_up_2:.
+See my journey of learning :thinking: C++ and Data Structure & Algorithm in the same language.
+And in this repository, I upload my code while I am learning :point_up_2:.
 
 ## Technologies
 I have used
