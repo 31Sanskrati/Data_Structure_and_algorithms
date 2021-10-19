@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//this program is about a famous sortinh technique quick sort
+//this program is about quick sort
 
 void swap(int arr[], int i, int j) //for swaping two numbers
 {
