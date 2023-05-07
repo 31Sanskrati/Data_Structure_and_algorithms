@@ -14,6 +14,7 @@ struct Node {
     }
 };
 
+//root --> left --> right
 void preoder(struct Node* root){
     if(root==NULL){
         return;
@@ -23,6 +24,7 @@ void preoder(struct Node* root){
     preoder(root->right);
 }
 
+// left --> root --> right
 void inorder(struct  Node* root)
 {
     if(root==NULL){
@@ -33,6 +35,7 @@ void inorder(struct  Node* root)
     inorder(root->right);
 }
 
+// left --> right --> root
 void postorder(struct Node* root){
     if(root==NULL){
         return;
